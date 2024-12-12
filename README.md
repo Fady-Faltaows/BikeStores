@@ -97,7 +97,7 @@ Key pivot tables created include:
 The following charts were generated based on the pivot tables:
 
 1. **Bar Chart**: Revenue by year.
-![Total Revenue per year](images/Total Revenue pre year.png "Total Revenue per year")
+![Total Revenue per year](images/Total Revenue per year.PNG "Total Revenue per year")
 2. **Line Chart**: Monthly revenue trends, with separate lines for each year.
 ![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
 3. **Bar Chart**: Revenue by state.

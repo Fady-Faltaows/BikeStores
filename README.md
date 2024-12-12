@@ -34,7 +34,7 @@ The BikeStores database consists of the following tables:
 
 ### SQL Schema
 
-![Schema](images/Schema.png "Schema")
+![Schema](images/Schema.PNG "Schema")
 
 
 ## View Definition

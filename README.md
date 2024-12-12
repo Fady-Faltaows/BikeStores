@@ -2,18 +2,6 @@
 
 This project demonstrates how to analyze data from the BikeStores database by creating a database view, exporting the data to Excel, and performing pivot table analysis and visualizations. The goal is to derive meaningful insights about sales performance, customer distribution, and revenue generation.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Database Schema](#database-schema)
-- [View Definition](#view-definition)
-- [Excel Analysis](#excel-analysis)
-  - [Pivot Tables](#pivot-tables)
-  - [Visualizations](#visualizations)
-- [How to Use](#how-to-use)
-- [Technologies Used](#technologies-used)
-- [License](#license)
-
 ## Introduction
 
 The **BikeStores** database is a relational database designed for managing inventory, sales, and customer data for a fictional bike store. This project involves querying the database to create a view that consolidates key sales metrics. The view is exported to Excel for further analysis using pivot tables and visualizations.
@@ -99,20 +87,34 @@ The following charts were generated based on the pivot tables:
 1. **Bar Chart**: Revenue by year.
 
 ![Total Revenue per year](images/Total_Revenue_per_year.PNG "Total Revenue per year")
+
 2. **Line Chart**: Monthly revenue trends, with separate lines for each year.
-![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
+
+![Revenue_per_month](images/Revenue_per_month.PNG "Revenue_per_month")
+
 3. **Bar Chart**: Revenue by state.
-![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
-4. **Pie Chart**: Revenue distribution by store name.
-![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
-5. **Horizontal Bar Chart**: Revenue by brand name.
-![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
-6. **Horizontal Bar Chart**: Revenue by category.
-![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
-7. **Horizontal Bar Chart**: Top 10 customers by revenue.
-![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
-8. **Horizontal Bar Chart**: Revenue by sales representative.
-![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
+
+![revenue_per_state](images/revenue_per_state.PNG "revenue_per_state")
+
+4. **Pie Chart**: Revenue distribution by store.
+
+![Revenue distribution by store](images/revenue_per_store.PNG "Revenue distribution by store")
+
+5. **Bar Chart**: Revenue by brand name.
+
+![Revenue by brand name](images/revenue_per_brand.PNG "Revenue by brand name")
+
+6. **Bar Chart**: Revenue by category.
+
+![Revenue by category](images/revenue_per_category.PNG "Revenue by category")
+
+7. **Bar Chart**: Top 10 customers by revenue.
+
+![Top 10 customers by revenue](images/top_10_customers.PNG "Top 10 customers by revenue")
+
+8. **Bar Chart**: Revenue by sales representative.
+
+![Revenue by sales representative](images/revenue_per_sales_rep.PNG "Revenue by sales representative")
 
 #### Slicers
 
@@ -124,24 +126,18 @@ Interactive slicers were added to filter data by:
 
 ## How to Use
 
-1. Clone this repository:
-
-   ```bash
-   git clone https://github.com/yourusername/bikestores-analysis.git
-   ```
-
-2. Load the database schema and sample data into your SQL Server instance.
-3. Execute the view SQL script.
-4. Export the view data to Excel.
-5. Open the Excel file to explore pivot tables and visualizations.
+1. Open SQL server, create a new database and name it BikeStores
+2. Select the new BikeStores database in the SQL server
+3. Open the files downloaded from the link I provided 
+4. Open the 'create objects' query file and then execute it in the SQL server for the BikeStores database
+5. Open the 'load data' query file and then execute it in the SQL server for the BikeStores database
+6. If you want to use the Excel file directly you can download it and Open it
 
 ## Technologies Used
 
 - **SQL Server**: For database management and querying.
 - **Excel**: For data analysis and visualization.
-- **GitHub**: For version control and collaboration.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Recources
+https://drive.google.com/drive/folders/1lOKY-t0nLmwAdR8PiucSDnKysn57TVQy?usp=sharing
 

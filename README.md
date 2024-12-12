@@ -6,7 +6,6 @@ This project demonstrates how to analyze data from the BikeStores database by cr
 
 - [Introduction](#introduction)
 - [Database Schema](#database-schema)
-- [Sample Data](#sample-data)
 - [View Definition](#view-definition)
 - [Excel Analysis](#excel-analysis)
   - [Pivot Tables](#pivot-tables)
@@ -35,19 +34,8 @@ The BikeStores database consists of the following tables:
 
 ### SQL Schema
 
+![Schema](images/Schema.png "Schema")
 
-
-## Sample Data
-
-The following example illustrates some initial data for the **production.products** table:
-
-```sql
-INSERT INTO production.products(product_id, product_name, brand_id, category_id, model_year, list_price) 
-VALUES
-    (1, 'Trek 820 - 2016', 9, 6, 2016, 379.99),
-    (2, 'Ritchey Timberwolf Frameset - 2016', 5, 6, 2016, 749.99),
-    (3, 'Surly Wednesday Frameset - 2016', 8, 6, 2016, 999.99);
-```
 
 ## View Definition
 
@@ -109,13 +97,21 @@ Key pivot tables created include:
 The following charts were generated based on the pivot tables:
 
 1. **Bar Chart**: Revenue by year.
+![Total Revenue per year](images/Total Revenue pre year.png "Total Revenue per year")
 2. **Line Chart**: Monthly revenue trends, with separate lines for each year.
+![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
 3. **Bar Chart**: Revenue by state.
+![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
 4. **Pie Chart**: Revenue distribution by store name.
+![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
 5. **Horizontal Bar Chart**: Revenue by brand name.
+![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
 6. **Horizontal Bar Chart**: Revenue by category.
+![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
 7. **Horizontal Bar Chart**: Top 10 customers by revenue.
+![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
 8. **Horizontal Bar Chart**: Revenue by sales representative.
+![Revenue by Year](images/revenue_by_year.png "Revenue trends by year")
 
 #### Slicers
 
